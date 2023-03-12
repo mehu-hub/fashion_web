@@ -1,12 +1,237 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fashion</title>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/fashion.css">
+
 </head>
+
 <body>
-    <h3>This is wellness</h3>
+    <section class="navbar navbar-expand-lg navbar-light py-4 fixed-top">
+        <div class="container">
+            <a class="navbar-brand logo d-flex justify-content-between align-items-center order-lg-0" href="index.html">
+                <h2>FASHION</h2>
+            </a>
+
+            <div class="order-lg-2 nav-btns">
+                <button type="button" class="btn position-relative">
+                    <i class="fa fa-shopping-cart"></i>
+
+                </button>
+                <button type="button" class="btn position-relative">
+                    <i class="fa fa-heart"></i>
+
+                </button>
+                <button type="button" class="btn position-relative">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+                <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase fw-bold text-dark" href="./fashion.html">Fashion</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase fw-bold text-dark" href="./beauty.html">Beauty</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase fw-bold text-dark" href="./lifestyle.html">Lifestyle</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase fw-bold text-dark" href="./home.html">Home</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase fw-bold text-dark" href="./wellness.html">Wellness</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <header class="container fashion">
+        <h2 class="text-center fw-bold ">Wellness</h2>
+        <!-- <p class="fw-bold text-center">La couleur à l’honneur avec de la dopamine dans le dressing !</p> -->
+    </header>
+    <div class="container my-5">
+        <h4 class="text-center">
+            Le bien être est souvent une partie de nos vies que l’on néglige au profit de nos
+            objectifs personnels ou encore professionnel ! c’est pour cela que nous vous
+            présentons une petite sélection de produits ou accessoire facile à se procurer
+            et à utiliser pour s’accorder une petite parenthèse de bien être !
+        </h4>
+    </div>
+
+
+    <!-- Card item -->
+    <div class="container justify-content-center wellness d-flex justify-content-center mb-5">
+        <div class="card" style="width: 18rem;">
+            <img src="./images/Wellness/IMG_8598.JPG" class="card-img-top card-img" alt="...">
+            <div class="card-body">
+                <p class="card-text">Le Gua Sha, cette petite pierre de Quartz ou de Jade aide à effectuer des
+                    massages faciaux et donc à affiner le visage et faire pénétrer le sérum ou la
+                    crème pour le visage plus en profondeur. De nombreuses façons d’effectuer
+                    ces massages sont possibles et donc de varier les plaisirs !</p>
+                <a href=" https://www.sephora.fr/p/gua-sha-quartz-rose---visage-et-cou-
+                532082.html?utm_source=bing&utm_medium=cpc&utm_campaign=SephoraE
+                UR_SR_FRA_PLA-SSC-
+                Parfum_GEN_OTH_OGOING_EC_SHOP_GSMS_CRD_FRA_EUR_NAPP&utm_ter
+                m=&msclkid=81ac1e08cd7e1cf607dd7a0400811a1f" class="btn btn-primary">Lien Gua Sha</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./images/Wellness/IMG_8599.JPG" class="card-img-top card-img" alt="...">
+            <div class="card-body">
+                <p class="card-text">La chlorophylle est un ingrédient naturel parfait pour obtenir une peau nette et
+                    réduire les imperfections ! facile à se procurer il suffit d’en verser quelques
+                    gouttes dans un verre d’eau et d’en boire chaque jours pour réussir à prendre
+                    soin de soi rapidement et à moindre coût !</p>
+                <a href="https://theordinary.com/en-fr/niacinamide-10-zinc-1-serum-100436.html"
+                    class="btn btn-primary">Lien sérum</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./images/Wellness/img1.JPG" class="card-img-top card-img" alt="...">
+            <div class="card-body">
+                <p class="card-text">Ces gummies au bon gout de bonbons sont parfait pour entretenir une belle et
+                    longue chevelure sans avoir à faire de soins particuliers, c’est même plutôt avec
+                    plaisir que l’entretient se fait ! en avalant un bonbon par jour pendant un mois
+                    vous obtiendrez vos premiers résultats !</p>
+                <a href="https://www.lashilebeauty.com/products/good-hair-vitamins-1-mois" class="btn btn-primary">Lien
+                    gummies</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./images/Wellness/img5.JPG" class="card-img-top card-img img-fluid" alt="...">
+            <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+                <a href="https://www.amazon.fr/Dr-Botanicals-Diffuseur-dHuiles-
+                Essentielles/dp/B09VLHQ9MG/ref=sr_1_7?crid=26RU11DGO2UK0&keywords=
+                diffuseur%2Bhuiles%2Bessentielles&qid=1678561571&sprefix=dif%2Caps%2C1
+                04&sr=8-7&th=1" class="btn btn-primary">Lien diffuseur</a>
+            </div>
+        </div>
+
+    </div>
+    <!-- Card item end -->
+    <footer class="bg-dark py-5">
+        <div class="container">
+            <div class="row text-white g-4">
+                <div class="col-md-6 col-lg-3">
+                    <a class="text-uppercase text-decoration-none brand text-white" href="index.html">Attire</a>
+                    <p class="text-white text-muted mt-3">Les diffuseurs d’huiles essentiels sont un parfait outil pour
+                        obtenir une
+                        sensation de spa à la maison. Diffusez une légère odeur dépaysante pour vous
+                        détendre et vous laisser emporter quelques instants.</p>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <h5 class="fw-light">Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="my-3">
+                            <a href="#fashion" class="text-white text-decoration-none text-muted">
+                                <i class="fas fa-chevron-right me-1"></i> Fashion
+                            </a>
+                        </li>
+                        <li class="my-3">
+                            <a href="#lifestyle" class="text-white text-decoration-none text-muted">
+                                <i class="fas fa-chevron-right me-1"></i> Lifestyle
+                            </a>
+                        </li>
+                        <li class="my-3">
+                            <a href="#home" class="text-white text-decoration-none text-muted">
+                                <i class="fas fa-chevron-right me-1"></i> Home
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <h5 class="fw-light mb-3">Contact Us</h5>
+                    <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class="me-3">
+                            <i class="fas fa-map-marked-alt"></i>
+                        </span>
+                        <span class="fw-light">
+                            street address, city, French
+                        </span>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class="me-3">
+                            <i class="fas fa-envelope"></i>
+                        </span>
+                        <span class="fw-light">
+                            fashion.support@gmail.com
+                        </span>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class="me-3">
+                            <i class="fas fa-phone-alt"></i>
+                        </span>
+                        <span class="fw-light">
+                            +054******
+                        </span>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <h5 class="fw-light mb-3">Follow Us</h5>
+                    <div>
+                        <ul class="list-unstyled d-flex">
+                            <li>
+                                <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class="fab fa-pinterest"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- jquery -->
+    <script src="js/jquery-3.6.0.js"></script>
+    <!-- isotope js -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <!-- bootstrap js -->
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <!-- custom js -->
+    <script src="js/script.js"></script>
 </body>
+
 </html>

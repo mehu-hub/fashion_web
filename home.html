@@ -1,12 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fashion</title>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/fashion.css">
+
 </head>
+
 <body>
-    <h2>This is home</h2>
+    <section class="navbar navbar-expand-lg navbar-light py-4 fixed-top">
+        <div class="container">
+            <a class="navbar-brand logo d-flex justify-content-between align-items-center order-lg-0" href="index.html">
+                <h2>FASHION</h2>
+            </a>
+
+            <div class="order-lg-2 nav-btns">
+                <button type="button" class="btn position-relative">
+                    <i class="fa fa-shopping-cart"></i>
+
+                </button>
+                <button type="button" class="btn position-relative">
+                    <i class="fa fa-heart"></i>
+
+                </button>
+                <button type="button" class="btn position-relative">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+                <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase fw-bold text-dark" href="./fashion.html">Fashion</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase fw-bold text-dark" href="./beauty.html">Beauty</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase fw-bold text-dark" href="./lifestyle.html">Lifestyle</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase fw-bold text-dark" href="./home.html">Home</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase fw-bold text-dark" href="./wellness.html">Wellness</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <header class="container fashion">
+        <h2 class="text-center fw-bold ">Home</h2>
+        <!-- <p class="fw-bold text-center">La couleur à l’honneur avec de la dopamine dans le dressing !</p> -->
+    </header>
+    <div class="container my-5">
+        <h4 class="text-center">
+            Les tendances maisons sont à la mode scandinave, la simplicité et les couleurs
+            neutres ou pastel , voici quelques exemples et bonnes adresses pour vous
+            donner de belles idées.
+        </h4>
+    </div>
+    <div class="img-tree">
+        <div class="container justify-content-center img-sec-one">
+            <div class="img-one justify-content-center d-flex">
+                <div class="img-1">
+                    <img src="./images/Home/IMG_8593.JPG" alt="">
+                </div>
+                <div class="img-2">
+                    <img src="./images/Home/IMG_8590.JPG" alt="">
+                </div>
+                <div class="img-3">
+                    <img src="./images/Home/IMG_8592.JPG" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="d-flex button container justify-content-center d-inline-block  mb-5 gap-5">
+            <a href=" https://bobochicparis.com/fr/" target="_blank" class="btn mt-3 text-uppercase">Visit Now</a>
+            <a href=" https://www.sklum.com/fr/" target="_blank" class="btn mt-3 text-uppercase">Visit Now</a>
+            <a href=" https://www.westwing.fr" target="_blank" class="btn mt-3 text-uppercase">Visit Now</a>
+        </div>
+    </div>
+    <!-- ----------------------------------------------------------------- -->
+    <!-- ----------------------------------------------------------------- -->
+    <div class="img-tree">
+        <div class="container justify-content-center img-sec-one">
+            <div class="img-one justify-content-center d-flex">
+                <div class="img-1">
+                    <img class="img-fluid" src="./images/Home/image1 (3).JPG" alt="">
+                </div>
+                <div class="img-2">
+                    <img src="./images/Home/image1 (2).JPG" alt="">
+                </div>
+                <div class="img-3">
+                    <img src="./images/Home/image1 (1).JPG" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="d-flex button container justify-content-center d-inline-block  mb-5 gap-5">
+            <a href=" https://www.fleux.com" target="_blank" class="btn mt-3 text-uppercase">Visit Now</a>
+            <a href=" https://www.bmstores.fr" target="_blank" class="btn mt-3 text-uppercase">Visit Now</a>
+            <a href=" https://www.lincroyable.fr" target="_blank" class="btn mt-3 text-uppercase">Visit Now</a>
+        </div>
+    </div> 
+    <footer class="bg-dark py-5">
+        <div class="container">
+            <div class="row text-white g-4">
+                <div class="col-md-6 col-lg-3">
+                    <a class="text-uppercase text-decoration-none brand text-white" href="index.html">Attire</a>
+                    <p class="text-white text-muted mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nostrum mollitia quisquam veniam odit cupiditate, ullam aut voluptas velit dolor ipsam?</p>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <h5 class="fw-light">Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="my-3">
+                            <a href="#fashion" class="text-white text-decoration-none text-muted">
+                                <i class="fas fa-chevron-right me-1"></i> Fashion
+                            </a>
+                        </li>
+                        <li class="my-3">
+                            <a href="#lifestyle" class="text-white text-decoration-none text-muted">
+                                <i class="fas fa-chevron-right me-1"></i> Lifestyle
+                            </a>
+                        </li>
+                        <li class="my-3">
+                            <a href="#home" class="text-white text-decoration-none text-muted">
+                                <i class="fas fa-chevron-right me-1"></i> Home
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <h5 class="fw-light mb-3">Contact Us</h5>
+                    <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class="me-3">
+                            <i class="fas fa-map-marked-alt"></i>
+                        </span>
+                        <span class="fw-light">
+                            street address, city, French
+                        </span>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class="me-3">
+                            <i class="fas fa-envelope"></i>
+                        </span>
+                        <span class="fw-light">
+                            fashion.support@gmail.com
+                        </span>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class="me-3">
+                            <i class="fas fa-phone-alt"></i>
+                        </span>
+                        <span class="fw-light">
+                            +054******
+                        </span>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <h5 class="fw-light mb-3">Follow Us</h5>
+                    <div>
+                        <ul class="list-unstyled d-flex">
+                            <li>
+                                <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class="fab fa-pinterest"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- jquery -->
+    <script src="js/jquery-3.6.0.js"></script>
+    <!-- isotope js -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <!-- bootstrap js -->
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <!-- custom js -->
+    <script src="js/script.js"></script>
 </body>
+
 </html>

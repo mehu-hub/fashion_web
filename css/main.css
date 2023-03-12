@@ -12,14 +12,14 @@ body{
 
 .btn:not(.nav-btns button){
     background-color: #fff;
-    color: rgb(85, 85, 85);
+    color: rgb(7, 0, 2);
     padding: 10px 28px;
     border-radius: 25px;
     border: 1px solid rgb(85, 85, 85);
 }
 .btn:not(.nav-btns button):hover{
     background-color: var(--pink);
-    color: #fff;
+    color: #991212;
     border-color: var(--pink);
 }
 
@@ -184,6 +184,7 @@ footer a:hover{
     color: var(--pink)!important;
 }
 
+
 /* media queries */
 @media(min-width: 992px){
     .nav-item{
@@ -209,5 +210,13 @@ footer a:hover{
     .img-one{
         flex-direction: column;
     }
-    
+    .cards{
+        flex-direction: column;
+    }
+    .button{
+        flex-direction: column;
+    }
+    .wellness{
+        flex-direction: column;
+    }
 }

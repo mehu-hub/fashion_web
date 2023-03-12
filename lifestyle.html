@@ -1,12 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fashion</title>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/fashion.css">
+
 </head>
+
 <body>
-        <h2>This is my lifeStyle</h2>
+    <section class="navbar navbar-expand-lg navbar-light py-4 fixed-top">
+        <div class="container">
+            <a class="navbar-brand logo d-flex justify-content-between align-items-center order-lg-0" href="index.html">
+                <h2>FASHION</h2>
+            </a>
+
+            <div class="order-lg-2 nav-btns">
+                <button type="button" class="btn position-relative">
+                    <i class="fa fa-shopping-cart"></i>
+
+                </button>
+                <button type="button" class="btn position-relative">
+                    <i class="fa fa-heart"></i>
+
+                </button>
+                <button type="button" class="btn position-relative">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+                <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase fw-bold text-dark" href="./fashion.html">Fashion</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase fw-bold text-dark" href="./beauty.html">Beauty</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase fw-bold text-dark" href="./lifestyle.html">Lifestyle</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase fw-bold text-dark" href="./home.html">Home</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase fw-bold text-dark" href="./wellness.html">Wellness</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <header class="container fashion">
+        <h2 class="text-center fw-bold ">LIFESTYLE</h2>
+    </header>
+    <h4 class="container text-center">Il est important de se faire plaisir et nous avons déniché pour vous quelques
+        adresses très agréables <br> pour passer un bon moment si vous passer ou habiter
+        sur la capitale !</h4>
+    <div class="d-flex cards justify-content-center p-5">
+        <div class="card  " style="width: 18rem;">
+            <img src="./images/lifestye/img1.JPG" class="card-img-top img-fluid" style="height: 450px;" alt="...">
+            <div class="card-body">
+                <p class="card-text">Le Café de Flore, incontournable café parisien il vous assurera un brunch ou
+                    une pause goûter des plus agréable dans un jolie cadre parisien simple et
+                    arboré !</p>
+                <p><b>Adresse : 172 boulevard St Germain, 75006.</b></p>
+                <a href="https://cafedeflore.fr" class="btn btn-primary">Lien</a>
+            </div>
+        </div>
+        <div class="card  " style="width: 18rem;">
+            <img src="./images/lifestye/img5.JPG" class="card-img-top" style="height: 450px;" alt="...">
+            <div class="card-body">
+                <p class="card-text">Le Buddha Bar, dépaysement assuré avec ce restaurant de cuisine Asian Fusion
+                    délicieuse au cadre idyllique. Lumières tamisés, Dj pour une ambiance house et
+                    festive tout en dégustant un délicieux repas !</p>
+                <p><b>Adresse : 8 rue Boissy D Anglas, Paris, FR 75008</b></p>
+                <a href="https://cafedeflore.fr" class="btn btn-primary">Lien</a>
+            </div>
+        </div>
+        <div class="card  " style="width: 18rem;">
+            <img src="./images/lifestye/img4.JPG" class="card-img-top" style="height: 450px;" alt="...">
+            <div class="card-body">
+                <p class="card-text">Après avoir manger dans de beaux endroits il est temps de bruler les calories
+                    de tout cela ! c’est pourquoi nous vous proposons ce centre de boxe Le Cercle
+                    Boxing qui propose des séances à l’unité avec le coach de votre choix et les
+                    horaires de votre choix ! avec plusieurs clubs dans le centre de paris vous
+                    pourrez vous y rendre quand vous voulez ou vous voulez ! Débutants ou élèves
+                    confirmer venez vous faire plaisir !</p>
+                <p><b>Adresse : 172 boulevard St Germain, 75006.</b></p>
+                <a href="https://cafedeflore.fr" class="btn btn-primary">Lien</a>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="bg-dark py-5">
+        <div class="container">
+            <div class="row text-white g-4">
+                <div class="col-md-6 col-lg-3">
+                    <a class="text-uppercase text-decoration-none brand text-white" href="index.html">Attire</a>
+                    <p class="text-white text-muted mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nostrum mollitia quisquam veniam odit cupiditate, ullam aut voluptas velit dolor ipsam?</p>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <h5 class="fw-light">Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="my-3">
+                            <a href="#fashion" class="text-white text-decoration-none text-muted">
+                                <i class="fas fa-chevron-right me-1"></i> Fashion
+                            </a>
+                        </li>
+                        <li class="my-3">
+                            <a href="#lifestyle" class="text-white text-decoration-none text-muted">
+                                <i class="fas fa-chevron-right me-1"></i> Lifestyle
+                            </a>
+                        </li>
+                        <li class="my-3">
+                            <a href="#home" class="text-white text-decoration-none text-muted">
+                                <i class="fas fa-chevron-right me-1"></i> Home
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <h5 class="fw-light mb-3">Contact Us</h5>
+                    <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class="me-3">
+                            <i class="fas fa-map-marked-alt"></i>
+                        </span>
+                        <span class="fw-light">
+                            street address, city, French
+                        </span>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class="me-3">
+                            <i class="fas fa-envelope"></i>
+                        </span>
+                        <span class="fw-light">
+                            fashion.support@gmail.com
+                        </span>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class="me-3">
+                            <i class="fas fa-phone-alt"></i>
+                        </span>
+                        <span class="fw-light">
+                            +054******
+                        </span>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <h5 class="fw-light mb-3">Follow Us</h5>
+                    <div>
+                        <ul class="list-unstyled d-flex">
+                            <li>
+                                <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class="fab fa-pinterest"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- jquery -->
+    <script src="js/jquery-3.6.0.js"></script>
+    <!-- isotope js -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <!-- bootstrap js -->
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <!-- custom js -->
+    <script src="js/script.js"></script>
 </body>
+
 </html>
