@@ -38,3 +38,35 @@
 .card-img{ 
     height: 300px;
 }
+.well-btn{
+    margin-top: 50px;
+}
+.our-history{ 
+    margin: 10px;
+    margin-top: 50px;
+    width: 100%; 
+    border: 2px solid rgb(68, 68, 68);
+    border-radius: 15px;
+    background-color: rgb(250, 242, 232);
+    padding: 25px;
+}
+.our-team{
+    margin: 10px;
+    margin-top: 50px;
+    width: 100%; 
+    border: 2px solid rgb(68, 68, 68);
+    border-radius: 15px;
+    background-color: rgb(250, 242, 232);
+    padding: 25px;
+}
+.single-service{
+    border: 2px solid gray;
+    background-color: rgb(207, 255, 239);
+    padding: 25px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.hr{
+    margin-left: 13%;
+    margin-right: 13%;
+} 
