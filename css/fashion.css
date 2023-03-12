@@ -1,0 +1,37 @@
+.fashion {
+    margin-top: 200px;
+}
+
+.fashion h2 {
+    font-size: 55px;
+}
+
+.img-sec-one {
+    margin-top: 200px;
+}
+
+.img-1 img {
+    width: 400px;
+    height: 500px;
+}
+
+.img-2 img {
+    margin-top: -100px;
+    width: 400px;
+    height: 600px;
+}
+
+.img-3 img {
+    width: 400px;
+    height: 500px;
+}
+
+.img-one-p {
+    padding: 25px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.img-tree{
+    align-items: center;
+    justify-content: center;
+}
